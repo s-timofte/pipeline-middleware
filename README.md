@@ -1,4 +1,6 @@
 # Pipeline Middleware
+[![Coverage Status](https://coveralls.io/repos/github/s-timofte/pipeline-middleware/badge.svg?branch=master)](https://coveralls.io/github/s-timofte/pipeline-middleware?branch=master)
+
 Pipeline Middleware represents a simple and customizable way to dispatch Redux actions based on other actions being dispatched. The Pipeline Middleware is capable of handling simple actions as the output as well as action returning functions, action yielding generators and actions resulting from promise fullfilment.
 
 The Pipeline Middleware provide a simple way of combining the pipelines based on an actionType keyed object that will pair actions with execution pipelines that result in different actions.

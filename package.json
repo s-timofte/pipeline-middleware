@@ -1,6 +1,6 @@
 {
   "name": "pipeline-middleware",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple action in / action out pipeline capable of handling Redux actions, functions, generators and promises.",
   "main": "index.js",
   "repository": "https://github.com/s-timofte/pipeline-middleware.git",
@@ -17,9 +17,11 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-0": "^6.24.1",
+    "coveralls": "^3.0.0",
     "jest": "^22.4.3"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "cover": "jest --coverage"
   }
 }
